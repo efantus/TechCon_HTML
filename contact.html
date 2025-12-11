@@ -21,49 +21,55 @@
     <section>
       <h2>Contact Information</h2>
       <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+
       <p>
         Social:
-        <a href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a> |
+        <a href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>
         <a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a>
       </p>
     </section>
 
     <section>
       <h2>Location</h2>
-      <!-- Example responsive iframe (Google Maps embed). Replace src with a real embed if you like. -->
+      <!-- Google Maps embed -->
       <div style="max-width:600px;">
         <iframe
           title="TechCon venue map"
           src="https://www.google.com/maps?q=New+York+City&output=embed"
-          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+          width="100%" height="300"
+          style="border:0;"
+          allowfullscreen
+          loading="lazy">
         </iframe>
       </div>
     </section>
 
     <section>
-      <h2>Contact Us</h2>
-      <form action="#" method="post" novalidate>
-        <div>
-          <label for="contact_name">Name</label>
-          <input id="contact_name" name="contact_name" type="text" required />
-        </div>
-        <div>
-          <label for="contact_email">Email</label>
-          <input id="contact_email" name="contact_email" type="email" required />
-        </div>
-        <div>
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-        <div>
-          <button type="submit">Send Message</button>
-        </div>
+      <h2>Contact Us Form</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input id="name" name="name" type="text">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email">
+
+        <br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <br><br>
+
+        <button type="submit">Send Message</button>
       </form>
     </section>
   </main>
 
   <footer>
-    <p>copyright © 2025 TechCon. All rights reserved.</p>
+    <p>copyright © 2024 TechCon</p>
   </footer>
 </body>
 </html>
+
